@@ -1,0 +1,20 @@
+{
+    "name": "group34app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "formik": "^2.2.6",
+        "next": "^14.2.13",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-multi-date-picker": "^4.5.2",
+        "react-multi-select-component": "^4.3.4",
+        "yup": "^0.32.9"
+    }
+}
