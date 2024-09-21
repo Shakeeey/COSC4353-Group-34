@@ -8,12 +8,54 @@ body {
 }
 
 h1 {
-  color: green;
+  color: rgb(80, 61, 61);
   text-align: center;
   margin-top: 20px;
   font-size: 36px; /* Increased font size */
 }
 
+/* Define a common container class for all pages */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom right, #ffafbd, #ffc3a0); /* Gradient background */
+  background-size: cover;
+  background-position: center;
+  color: #333; /* Text color for content */
+}
+
+/* Common navigation bar styles */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(3, 40, 250, 0.1);
+  z-index: 1000;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #f30e0e;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+nav a:hover {
+  color: #380b2b;
+}
+
+/* Form styles */
 form {
   display: flex;
   flex-direction: column;
@@ -25,14 +67,15 @@ form {
   border-radius: 8px;
 }
 
+/* Additional styles if needed */
 label {
-  margin: 16px 0 8px; /* Increased margin for better spacing */
+  margin: 16px 0 8px;
   font-weight: bold;
   color: #555;
 }
 
 input, select, textarea {
-  margin-bottom: 24px; /* Increased margin-bottom for better spacing */
+  margin-bottom: 24px;
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ddd;
@@ -58,39 +101,4 @@ button {
 
 button:hover {
   background-color: #005bb5;
-}
-
-span {
-  color: rgb(0, 0, 0);
-  font-size: 14px;
-}
-
-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-nav a {
-  margin-left: 20px;
-  color: #0070f3;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #005bb5;
-}
-
-/* Added spacing between label text and input fields */
-label {
-  display: flex;
-  flex-direction: column;
-}
-
-label input, label select, label textarea {
-  margin-top: 8px; /* Add space between label text and input field */
 }
