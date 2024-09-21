@@ -4,7 +4,7 @@ import NotificationList from '../components/NotificationList';
 
 const NotificationsPage = () => {
   return (
-    <div className="container">
+    <div>
       <h1>Notifications</h1>
       <NotificationList />
     </div>

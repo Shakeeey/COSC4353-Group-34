@@ -4,7 +4,7 @@ import VolunteerMatchingForm from '../components/VolunteerMatchingForm';
 
 const VolunteerMatchingPage = () => {
   return (
-    <div className="container">
+    <div>
       <h1>Volunteer Matching</h1>
       <VolunteerMatchingForm />
     </div>

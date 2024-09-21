@@ -4,7 +4,7 @@ import VolunteerHistoryTable from '../components/VolunteerHistoryTable';
 
 const HistoryPage = () => {
   return (
-    <div className="container">
+    <div>
       <h1>Volunteer History</h1>
       <VolunteerHistoryTable />
     </div>
