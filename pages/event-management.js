@@ -4,7 +4,7 @@ import { MultiSelect } from 'react-multi-select-component';
 import DatePicker from 'react-multi-date-picker';
 import DatePanel from 'react-multi-date-picker/plugins/date_panel';
 import 'react-multi-date-picker/styles/colors/teal.css';
-import RequiredLabel from '../components/RequiredLabel';
+import RequiredLabel from '../components/RequiredLabel'; // Import the RequiredLabel component
 
 const EventManagementForm = () => {
   const [formData, setFormData] = useState({
@@ -278,7 +278,7 @@ const EventManagementForm = () => {
 
 const EventManagementPage = () => {
   return (
-    <div className="container">
+    <div>
       <h1>Event Management</h1>
       <EventManagementForm />
     </div>

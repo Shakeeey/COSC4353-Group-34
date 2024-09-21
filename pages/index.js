@@ -13,7 +13,7 @@ const HomePage = () => {
         <Link href="/event-management">Event Management</Link>
       </nav>
       <div className={styles.content}>
-        <h1 className={styles.heading}>Welcome to the Volunteer Management System (VMS)</h1>
+        <h1 className={styles.heading}>Welcome to the Volunteer Management System</h1>
       </div>
     </div>
   );
